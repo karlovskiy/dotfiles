@@ -1,0 +1,87 @@
+! xft config
+
+Xft.autohint: false
+Xft.antialias: true
+Xft.hinting: true
+Xft.hintstyle: hintslight
+!Xft.hintstyle: hintsfull
+Xft.dpi: 96
+Xft.rgba: rgb
+Xft.lcdfilter: lcddefault
+
+! urxvt config
+URxvt.geometry: 120x30
+URxvt.buffered: true
+URxvt.cursorBlink: true
+URxvt.cursorColor: #93d44f
+URxvt.cursorColor2: black
+!URxv.underlineColor: yellow
+URxvt.font: xft:inconsolata:size=12:antialias=true
+URxvt.depth: 32
+URxvt.borderless: 1
+URxvt.scrollBar: false
+URxvt.loginShell: true
+Urxvt.secondaryScroll: true # Enable Shift-PageUp/Down in screen
+URxvt.saveLines: 5000
+URxvt.termName: rxvt-unicode
+URxvt.perl-ext-common: default,matcher
+URxvt.urlLauncher: firefox
+URxvt.matcher.button: 1
+
+
+! tangoesque scheme
+URxvt*background: #111111
+URxvt*foreground: #babdb6
+!URxvt*foreground: #33ff00
+
+! Black (not tango) + DarkGrey
+URxvt*color0:  #000000
+URxvt*color8:  #555753
+
+! DarkRed + Red
+URxvt*color1:  #ff6565
+URxvt*color9:  #ff8d8d
+
+! DarkGreen + Green
+URxvt*color2:  #93d44f
+URxvt*color10:  #00e600
+!URxvt*color10: #c8e7a8
+
+! DarkYellow + Yellow
+URxvt*color3:  #eab93d
+URxvt*color11: #ffc123
+
+! DarkBlue + Blue
+URxvt*color4:  #204a87
+URxvt*color12: #3465a4
+
+! DarkMagenta + Magenta
+URxvt*color5:  #ce5c00
+URxvt*color13: #f57900
+
+! DarkCyan + Cyan (both not tango)
+URxvt*color6:  #89b6e2
+URxvt*color14: #46a4ff
+
+! LightGrey + White
+!URxvt*color7:  #cccccc
+!URxvt*color15: #ffffff
+
+!urxvt*foreground: #f2f2f2
+!urxvt*background: #101010
+!urxvt*color0: #101010
+!urxvt*color1: #f13a21
+!urxvt*color2: #93f91d
+!urxvt*color3: #ffd00a
+!urxvt*color4: #004f9e
+!urxvt*color5: #ec0048
+!urxvt*color6: #2aa7e7
+!urxvt*color7: #f2f2f2
+!urxvt*color8: #1d202f
+!urxvt*color9: #ff361e
+!urxvt*color10: #ffc005
+!urxvt*color11: #93ff00
+!urxvt*color12: #0071ff
+!urxvt*color13: #ef0051
+!urxvt*color14: #4bb8fd
+!urxvt*color15: #a020f0
